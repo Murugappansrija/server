@@ -1,10 +1,11 @@
 
-import user from '../server/routes/user.js'
-import todo from '../server/routes/todo.js'
 
 import express from "express";
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
+
+import user from "./routes/user.js"
+import todo from './routes/todo.js'
 const app = express()
 
 
