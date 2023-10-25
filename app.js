@@ -17,7 +17,7 @@ app.use('/user', user)
 app.use('/todo', todo)
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://brilliant-tanuki-83806c.netlify.app/',
 }))
 
 export default app
