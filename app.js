@@ -16,8 +16,6 @@ app.use(cookieParser())
 app.use('/user', user)
 app.use('/todo', todo)
 
-app.use(cors({
-    origin: 'https://brilliant-tanuki-83806c.netlify.app/',
-}))
+app.use(cors())
 
 export default app
